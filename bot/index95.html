@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estudia en casa</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="body">
+  <header class="header">
+    <h1 class="titulo-principal">ESTUDIA CONMIGO 🧠</h1>
+    <h2 class="subtitulo">Donde aprender nunca fue tan fácil</h2>
+  </header>
+
+  <nav class="navegacion">
+    <ul class="menu">
+      <li class="menu-item"><a href="#">Inicio</a></li>
+      <li class="menu-item"><a href="#">Quienes somos</a></li>
+      <li class="menu-item">
+        <a href="#">Modalidad</a>
+        <ul class="submenu">
+          <li class="submenu-item"><a href="#">Online</a></li>
+          <li class="submenu-item"><a href="#">Presencial</a></li>
+        </ul>
+      </li>
+      <li class="menu-item">
+        <a href="#">Cursos</a>
+        <ul class="submenu">
+          <li class="submenu-item"><a href="#">Secundario</a></li>
+          <li class="submenu-item"><a href="#">Terciario</a></li>
+          <li class="submenu-item"><a href="#">Universitario</a></li>
+        </ul>
+      </li>
+      <li class="menu-item"><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="seccion-imagen">
+    <img src="..//bot/126412606-equipos-de-escritura-y-material-informático-colocados-encima-de-una-mesa-sencilla-de-color.jpg" alt="imagen alusiva">
+    <h3 class="subtitulo-seccion">Página con finalidad educativa</h3>
+  </section>
+
+  <!-- Formulario con caja laterale -->
+  <section class="seccion-formulario-seccion">
+    <div class="contenedor-formulario">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto reiciendis est debitis quidem, amet officia! Distinctio pariatur maiores sunt minus sint, ipsa provident esse culpa. At nesciunt perspiciatis beatae consequuntur.</p>
+      
+
+      <!-- Formulario -->
+      <form class="formulario">
+        <legend class="formulario-leyenda"><strong>📝 INFORMACIÓN PERSONAL</strong></legend>
+
+        <label>Curso:</label><br>
+        <input type="radio" name="producto" value="secundario"> Secundario
+        <input type="radio" name="producto" value="terciario"> Terciario
+        <input type="radio" name="producto" value="universitario"> Universitario<br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+
+        <label for="materias">Materias:</label>
+        <select id="materias" name="materias">
+          <option value="fisica">Física</option>
+          <option value="matematicas">Matemáticas</option>
+          <option value="quimica" selected>Química</option>
+          <option value="otras">Otras</option>
+        </select>
+
+        <input type="submit" value="Enviar" class="boton-enviar">
+      </form>
+
+    
+    </div>
+  </section>
+
+  <article class="articulo">
+    <h2 class="titulo-articulo">Video educativo</h2>
+    <video src="../bot/1046-142621379_small.mp4" controls class="video"></video>
+  </article>
+
+  <article class="articulo">
+    <h2 class="titulo-articulo">Nuestra Ubicación 📍</h2>
+    <iframe src="https://www.google.com/maps/embed?..." class="mapa"></iframe>
+  </article>
+</body>
+</html>
